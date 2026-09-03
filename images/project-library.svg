@@ -1,0 +1,17 @@
+<svg viewBox="0 0 400 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Library management system illustration">
+  <rect width="400" height="240" fill="#0B2531"/>
+  <g>
+    <rect x="60" y="70" width="26" height="130" fill="#123746"/>
+    <rect x="90" y="55" width="26" height="145" fill="#1E5E5A"/>
+    <rect x="120" y="80" width="26" height="120" fill="#123746"/>
+    <rect x="150" y="65" width="26" height="135" fill="#1E5E5A"/>
+    <rect x="180" y="90" width="26" height="110" fill="#123746"/>
+  </g>
+  <rect x="230" y="60" width="130" height="140" rx="4" fill="#123746"/>
+  <rect x="246" y="78" width="98" height="10" rx="2" fill="#2FD9C4"/>
+  <rect x="246" y="100" width="98" height="6" rx="2" fill="#1E5E5A"/>
+  <rect x="246" y="114" width="70" height="6" rx="2" fill="#1E5E5A"/>
+  <rect x="246" y="140" width="98" height="24" rx="3" fill="#0B2531"/>
+  <path d="M256 152 h20" stroke="#F0A93F" stroke-width="3" stroke-linecap="round"/>
+  <rect x="246" y="172" width="98" height="6" rx="2" fill="#1E5E5A"/>
+</svg>

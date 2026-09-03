@@ -1,0 +1,23 @@
+<svg viewBox="0 0 400 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Deep Sea mesh network illustration">
+  <rect width="400" height="240" fill="#0B2531"/>
+  <path d="M0 170 Q60 150 120 172 T240 168 T400 176 V240 H0 Z" fill="#0F2F3D"/>
+  <path d="M0 190 Q70 175 140 192 T280 188 T400 196 V240 H0 Z" fill="#123746"/>
+  <g stroke="#1E5E5A" stroke-width="1" opacity="0.5">
+    <line x1="60" y1="60" x2="150" y2="100"/>
+    <line x1="150" y1="100" x2="230" y2="70"/>
+    <line x1="150" y1="100" x2="200" y2="150"/>
+    <line x1="230" y1="70" x2="320" y2="110"/>
+    <line x1="200" y1="150" x2="320" y2="110"/>
+    <line x1="320" y1="110" x2="360" y2="60"/>
+  </g>
+  <g fill="#2FD9C4">
+    <circle cx="60" cy="60" r="4"/>
+    <circle cx="150" cy="100" r="5"/>
+    <circle cx="230" cy="70" r="4"/>
+    <circle cx="200" cy="150" r="4"/>
+    <circle cx="320" cy="110" r="5"/>
+    <circle cx="360" cy="60" r="4"/>
+  </g>
+  <circle cx="150" cy="100" r="10" fill="none" stroke="#2FD9C4" stroke-width="1.5" opacity="0.6"/>
+  <circle cx="320" cy="110" r="10" fill="none" stroke="#2FD9C4" stroke-width="1.5" opacity="0.6"/>
+</svg>

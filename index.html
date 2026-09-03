@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jinu J Saju — Portfolio</title>
+<meta name="description" content="Portfolio of Jinu J Saju, Computer Science Engineering student — Full Stack MERN Development, IoT Systems, UI/UX Design.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ============ HEADER / NAV ============ -->
+<header class="site-header" id="top">
+  <div class="nav-wrap">
+    <a href="#top" class="logo" aria-label="Jinu J Saju — home">
+      <span class="logo-mark" aria-hidden="true">
+        <span class="ping"></span>
+      </span>
+      JINU&nbsp;J&nbsp;SAJU
+    </a>
+
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="primaryNav" aria-label="Toggle navigation menu">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="primary-nav" id="primaryNav" aria-label="Primary">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#internship">Internship</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="theme-toggle" id="themeToggle" type="button" aria-pressed="false" aria-label="Switch to dark mode">
+        <span class="theme-toggle-track"><span class="theme-toggle-thumb"></span></span>
+        <span class="theme-toggle-label">Night mode</span>
+      </button>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" aria-label="Introduction">
+    <div class="hero-text">
+      <p class="hero-eyebrow">Computer Science Engineering · Trivandrum, Kerala</p>
+      <h1>I build systems that stay connected<br> — on the web, and off the grid.</h1>
+      <p class="hero-lede">
+        Full stack MERN developer and IoT systems builder. I've shipped a maritime
+        safety mesh network for fishermen with no internet access, a hospital website
+        that patients actually book through, and a library platform used end to end —
+        auth, APIs, and all.
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">View my work</a>
+        <a href="./Jinu_J_Saju_Resume.pdf" class="btn btn-ghost" download>Download résumé</a>
+      </div>
+    </div>
+
+    <div class="hero-signal" aria-hidden="true">
+      <svg viewBox="0 0 340 340" class="signal-svg">
+        <circle cx="170" cy="170" r="150" class="ring ring-1"/>
+        <circle cx="170" cy="170" r="105" class="ring ring-2"/>
+        <circle cx="170" cy="170" r="60" class="ring ring-3"/>
+        <line x1="170" y1="170" x2="70" y2="90" class="link"/>
+        <line x1="170" y1="170" x2="270" y2="100" class="link"/>
+        <line x1="170" y1="170" x2="90" y2="260" class="link"/>
+        <line x1="170" y1="170" x2="255" y2="255" class="link"/>
+        <circle cx="170" cy="170" r="7" class="node node-main"/>
+        <circle cx="70" cy="90" r="5" class="node"/>
+        <circle cx="270" cy="100" r="5" class="node"/>
+        <circle cx="90" cy="260" r="5" class="node"/>
+        <circle cx="255" cy="255" r="5" class="node"/>
+      </svg>
+      <p class="signal-coords">08.5241° N&nbsp;&nbsp;76.9366° E<br><span>TVM · MESH ACTIVE</span></p>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section id="about" class="section" aria-labelledby="about-heading">
+    <div class="section-frame">
+      <h2 id="about-heading">About</h2>
+      <div class="about-grid">
+        <p class="about-copy">
+          I'm a Computer Science Engineering student at Mar Baselios College of Engineering
+          and Technology, graduating 2027. My work sits at the intersection of full stack
+          web development and embedded/IoT systems — I like problems where software has to
+          reach into the physical world, whether that's a LoRa radio on a fishing boat or a
+          form that has to validate itself before it ever touches a server.
+        </p>
+        <p class="about-copy">
+          Outside coursework, I've qualified in the Smart India Hackathon, Infosys
+          HackWithInfy, and the Cognizant Technoverse Hackathon, and completed a Full Stack
+          MERN internship at ICT Academy of Kerala. I'm currently looking for opportunities
+          to build software that has to work under real constraints.
+        </p>
+        <aside class="quick-facts" aria-label="Quick facts">
+          <dl>
+            <div><dt>Based in</dt><dd>Trivandrum, Kerala</dd></div>
+            <div><dt>Graduating</dt><dd>2027</dd></div>
+            <div><dt>CGPA</dt><dd>7.06 / 10</dd></div>
+            <div><dt>Languages spoken</dt><dd>English, Malayalam, Hindi</dd></div>
+          </dl>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SKILLS ============ -->
+  <section id="skills" class="section section-alt" aria-labelledby="skills-heading">
+    <div class="section-frame">
+      <h2 id="skills-heading">Skills</h2>
+
+      <div class="skills-grid">
+        <div class="skills-proficiency">
+          <h3>Core proficiency</h3>
+          <dl class="proficiency-list">
+            <div class="proficiency-row">
+              <dt>Python</dt><dd><span class="bar" style="--level:90%">Advanced</span></dd>
+            </div>
+            <div class="proficiency-row">
+              <dt>MERN stack (MongoDB · Express · React · Node)</dt><dd><span class="bar" style="--level:85%">Advanced</span></dd>
+            </div>
+            <div class="proficiency-row">
+              <dt>Java</dt><dd><span class="bar" style="--level:65%">Intermediate</span></dd>
+            </div>
+            <div class="proficiency-row">
+              <dt>C</dt><dd><span class="bar" style="--level:65%">Intermediate</span></dd>
+            </div>
+            <div class="proficiency-row">
+              <dt>MySQL</dt><dd><span class="bar" style="--level:60%">Intermediate</span></dd>
+            </div>
+            <div class="proficiency-row">
+              <dt>UI/UX Design (Figma)</dt><dd><span class="bar" style="--level:60%">Intermediate</span></dd>
+            </div>
+          </dl>
+        </div>
+
+        <div class="skills-tools">
+          <h3>Tools &amp; platforms</h3>
+          <ul class="tool-list">
+            <li>Git</li>
+            <li>GitHub</li>
+            <li>Postman</li>
+            <li>VS Code</li>
+            <li>Figma</li>
+            <li>Photoshop</li>
+            <li>Canva</li>
+          </ul>
+
+          <h3>Working style</h3>
+          <ul class="tool-list tool-list-soft">
+            <li>Communication</li>
+            <li>Team coordination</li>
+            <li>Time management</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROJECTS (rendered by JS from data array) ============ -->
+  <section id="projects" class="section" aria-labelledby="projects-heading">
+    <div class="section-frame">
+      <div class="projects-heading-row">
+        <h2 id="projects-heading">Projects</h2>
+        <div class="filter-bar" id="filterBar" role="group" aria-label="Filter projects by technology"></div>
+      </div>
+      <div class="project-grid" id="projectGrid">
+        <!-- populated by js/script.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ INTERNSHIP ============ -->
+  <section id="internship" class="section section-alt" aria-labelledby="internship-heading">
+    <div class="section-frame">
+      <h2 id="internship-heading">Internship</h2>
+      <article class="internship-card">
+        <div class="internship-meta">
+          <p class="internship-org">ICT Academy of Kerala</p>
+          <p class="internship-role">Full Stack Development Intern (MERN)</p>
+          <p class="internship-duration">09 Dec 2024 – 24 Jan 2025</p>
+        </div>
+        <ul class="internship-points">
+          <li>Completed a project-based full stack development internship specialising in the MERN stack.</li>
+          <li>Designed and built a complete Library Management System website from scratch.</li>
+          <li>Built responsive interfaces with React.js and backend APIs with Node.js and Express.js.</li>
+          <li>Implemented MongoDB schemas for book tracking, authentication, and transaction records.</li>
+        </ul>
+      </article>
+    </div>
+  </section>
+
+  <!-- ============ EDUCATION (table) ============ -->
+  <section id="education" class="section" aria-labelledby="education-heading">
+    <div class="section-frame">
+      <h2 id="education-heading">Education</h2>
+      <div class="table-wrap">
+        <table class="edu-table">
+          <caption class="sr-only">Educational history and internship record</caption>
+          <thead>
+            <tr>
+              <th scope="col">Institution / Organisation</th>
+              <th scope="col">Degree / Role</th>
+              <th scope="col">Duration</th>
+              <th scope="col">Grade / Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Mar Baselios College of Engineering and Technology</td>
+              <td>B.Tech, Computer Science Engineering</td>
+              <td>2023 – Expected 2027</td>
+              <td>CGPA 7.06 / 10</td>
+            </tr>
+            <tr>
+              <td>St. Mary's Higher Secondary School, Pattom (KBHSE)</td>
+              <td>Higher Secondary (Class XII)</td>
+              <td>2023</td>
+              <td>79.4%</td>
+            </tr>
+            <tr>
+              <td>Sarvodaya Central Vidyalaya (CBSE)</td>
+              <td>Secondary Education (Class X)</td>
+              <td>2021</td>
+              <td>83%</td>
+            </tr>
+            <tr>
+              <td>ICT Academy of Kerala</td>
+              <td>Full Stack Development Intern (MERN)</td>
+              <td>Dec 2024 – Jan 2025</td>
+              <td>Built a complete MERN library management system</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="cert-grid">
+        <div>
+          <h3>Certifications</h3>
+          <ul class="cert-list">
+            <li><span>Programming, Data Structures &amp; Algorithms using Python</span><span class="cert-src">NPTEL, IIT Madras — Sep 2024</span></li>
+            <li><span>Introduction to Machine Learning</span><span class="cert-src">NPTEL, IIT Madras — Oct 2025</span></li>
+            <li><span>Introduction to Internet of Things</span><span class="cert-src">Cisco Networking Academy — Feb 2024</span></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Workshops &amp; achievements</h3>
+          <ul class="cert-list">
+            <li><span>Advanced Python Programming</span><span class="cert-src">MBCET — Jul 2024</span></li>
+            <li><span>Cyber Security &amp; Ethical Hacking</span><span class="cert-src">Techmagh Tryst, IIT Delhi — Nov 2023</span></li>
+            <li><span>Infosys HackWithInfy — Round 1</span><span class="cert-src">Qualified, 2026</span></li>
+            <li><span>Cognizant Technoverse Hackathon</span><span class="cert-src">Qualified, 2026</span></li>
+            <li><span>Smart India Hackathon (SIH)</span><span class="cert-src">Qualified, 2024</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section id="contact" class="section section-alt" aria-labelledby="contact-heading">
+    <div class="section-frame">
+      <h2 id="contact-heading">Contact</h2>
+      <div class="contact-grid">
+        <div class="contact-direct">
+          <p>Best way to reach me — email or a call. I usually reply within a day.</p>
+          <ul class="contact-links">
+            <li><a href="mailto:jinusaju2017@gmail.com">jinusaju2017@gmail.com</a></li>
+            <li><a href="tel:+916282720978">+91 6282720978</a></li>
+            <li><a href="https://github.com/JinuSaju" target="_blank" rel="noopener">github.com/JinuSaju</a></li>
+            <li><a href="https://linkedin.com/in/jinu-j-saju" target="_blank" rel="noopener">linkedin.com/in/jinu-j-saju</a></li>
+            <li><a href="https://credly.com/users/jinu-j-saju" target="_blank" rel="noopener">credly.com/users/jinu-j-saju</a></li>
+          </ul>
+        </div>
+
+        <form class="contact-form" id="contactForm" novalidate>
+          <div class="form-row">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" autocomplete="name" required>
+            <p class="form-error" id="nameError" role="alert"></p>
+          </div>
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" autocomplete="email" required>
+            <p class="form-error" id="emailError" role="alert"></p>
+          </div>
+          <div class="form-row">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <p class="form-error" id="messageError" role="alert"></p>
+          </div>
+          <button type="submit" class="btn btn-primary">Send message</button>
+          <p class="form-success" id="formSuccess" role="status"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="section-frame footer-frame">
+    <p>© <span id="year"></span> Jinu J Saju. Built with vanilla HTML, CSS &amp; JavaScript.</p>
+    <a href="#top" class="back-to-top">Back to top ↑</a>
+  </div>
+</footer>
+
+<script src="./script.js"></script>
+</body>
+</html>
